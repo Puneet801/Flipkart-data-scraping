@@ -3,7 +3,7 @@ import requests #pip install requests
 import pandas as pd #pip install pandas
 
 
-page_num = input("Enter the number of pages you want to Scrap: ") # One page has 24 devices (Enter more than 2 for 40+ entries)
+page_num = input("Enter the number of pages you want to Scrap: ") # One page has 24 devices (Enter more than 2 for 40+ entries)(Don't enter more than 4)
 phone_name = []
 phone_price = []
 phone_rating = []
